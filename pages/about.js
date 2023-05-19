@@ -5,6 +5,7 @@ import Links from "../components/Links";
 import { Headline } from "../components/Headline";
 
 export default function Home() {
+  console.log("test");
   return (
     <div className={styles.container}>
       <Head>
