@@ -10,7 +10,6 @@ export default function Home() {
         <title>Index Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>変わるかテスト</div>
       <Main page="Index" />
       <Footer />
     </div>
