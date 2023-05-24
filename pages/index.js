@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Main page="Index" />
+      <Main page="Index(ホーム)" />
       <Footer />
     </div>
   );

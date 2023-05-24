@@ -2,25 +2,24 @@ import classes from "./Links.module.css";
 
 const ITEMS = [
   {
-    href: "https://nextjs.org/docs",
-    title: "Documentation →",
-    description: "Find in-depth information about Next.js features and API.",
+    href: "#",
+    title: "テスト１ →",
+    description: "ここに説明文１",
   },
   {
-    href: "https://nextjs.org/learn",
-    title: "Learn →",
-    description: "Learn about Next.js in an interactive course with quizzes!",
+    href: "#",
+    title: "テスト２ →",
+    description: "ここに説明分２",
   },
   {
-    href: "https://github.com/vercel/next.js/tree/master/examples",
-    title: "Examples →",
-    description: "Discover and deploy boilerplate example Next.js projects.",
+    href: "#",
+    title: "テスト３ →",
+    description: "ここに説明文３",
   },
   {
-    href: "https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app",
-    title: "Deploy →",
-    description:
-      "Instantly deploy your Next.js site to a public URL with Vercel.",
+    href: "#",
+    title: "テスト４ →",
+    description: "ここに説明分４",
   },
 ];
 
