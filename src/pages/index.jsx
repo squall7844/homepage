@@ -6,6 +6,11 @@ import { Header } from "src/components/Header";
 import { useEffect } from "react";
 
 export default function Home() {
+  let foo = 1;
+  const handleClick = (e) => {
+    foo = foo + 1;
+  };
+
   useEffect(() => {
     document.body.style.backgroundColor = "lightblue";
 
@@ -19,13 +24,8 @@ export default function Home() {
         <title>Index Page</title>
       </Head>
       <Header />
-      <button
-        onClick={function () {
-          alert(123);
-        }}
-      >
-        ボタン
-      </button>
+      <h1>{foo}</h1>
+      <button onClick={handleClick}>ボタン</button>
       <Main page="Index(ホーム)" />
       <Footer />
     </div>
