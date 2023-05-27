@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
       <Header />
       <h1>{count}</h1>
-      <button onClick={handleClick}>ボタン</button>
+      <button onClick={handleClick}>カウント</button>
       <Main page="Index(ホーム)" />
       <Footer />
     </div>
