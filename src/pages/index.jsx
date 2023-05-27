@@ -3,12 +3,13 @@ import styles from "src/styles/Home.module.css";
 import { Footer } from "src/components/Footer";
 import { Main } from "src/components/Main";
 import { Header } from "src/components/Header";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
-  let foo = 1;
+  const [count, setCount] = useState(1);
   const handleClick = (e) => {
-    foo = foo + 1;
+    setCount((count) => count + 1);
+    setCount((count) => count + 1);
   };
 
   useEffect(() => {
@@ -24,7 +25,7 @@ export default function Home() {
         <title>Index Page</title>
       </Head>
       <Header />
-      <h1>{foo}</h1>
+      <h1>{count}</h1>
       <button onClick={handleClick}>ボタン</button>
       <Main page="Index(ホーム)" />
       <Footer />
