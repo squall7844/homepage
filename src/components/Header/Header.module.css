@@ -1,18 +1,18 @@
 .header {
   width: 110%;
-  height: 150px;
-  border-bottom: 15px solid #646161;
-  color: aliceblue;
+}
+
+.outer {
+  height: 15px;
   background-color: rgba(180, 25, 25, 10);
 }
 
 .inner {
-  width:100%;
-  height:80%;
+  height: 150px;
+  color: aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-position: center;
   background-color: black;
 }
 
