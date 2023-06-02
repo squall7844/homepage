@@ -30,8 +30,8 @@ export default function About() {
           })}
         </ul>
         <Main page="About(その他)" />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

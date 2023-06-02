@@ -12,7 +12,7 @@ export function Header() {
         <Link className={classes.anchor} href="/about">
           About
         </Link>
-        <div className={classes.anchor}>a</div>
+        <div className={classes.anchor}>aiueo</div>
         <div className={classes.anchor}>a</div>
         <div className={classes.anchor}>a</div>
         <div className={classes.anchor}>a</div>

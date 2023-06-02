@@ -31,8 +31,8 @@ export default function Home() {
           })}
         </ul>
         <Main page="Index(ホーム)" />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
