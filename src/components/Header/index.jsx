@@ -18,6 +18,10 @@ export function Header() {
         <div className={classes.anchor}>a</div>
         <div className={classes.anchor}>a</div>
         <div className={classes.anchor}>a</div>
+        <div className={classes.anchor}>a</div>
+        <div className={classes.anchor}>a</div>
+        <div className={classes.anchor}>a</div>
+        <div className={classes.anchor}>a</div>
       </div>
       <div className={classes.outer}></div>
     </header>

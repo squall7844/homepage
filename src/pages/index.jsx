@@ -13,26 +13,26 @@ export default function Home() {
   useBgLightBlue();
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Index Page</title>
       </Head>
       <Header />
+      <div className={styles.container}>
+        {isShow ? <h1>{count}</h1> : null}
+        <button onClick={handleClick}>カウント</button>
+        <button onClick={handleDisplay}>{isShow ? "非表示" : "表示"}</button>
 
-      {isShow ? <h1>{count}</h1> : null}
-      <button onClick={handleClick}>カウント</button>
-      <button onClick={handleDisplay}>{isShow ? "非表示" : "表示"}</button>
-
-      <input type="text" value={text} onChange={handleChange} />
-      <button onClick={handlAdd}>追加</button>
-      <ul>
-        {array.map((item) => {
-          return <li key={item}>{item}</li>;
-        })}
-      </ul>
-
-      <Main page="Index(ホーム)" />
-      <Footer />
+        <input type="text" value={text} onChange={handleChange} />
+        <button onClick={handlAdd}>追加</button>
+        <ul>
+          {array.map((item) => {
+            return <li key={item}>{item}</li>;
+          })}
+        </ul>
+        <Main page="Index(ホーム)" />
+        <Footer />
+      </div>
     </div>
   );
 }

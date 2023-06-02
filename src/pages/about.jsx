@@ -13,25 +13,25 @@ export default function About() {
   useBgLightBlue();
 
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>About Page</title>
-      </Head>
+      </Head>{" "}
       <Header />
-      {isShow ? <h1>{count}</h1> : null}
-      <button onClick={handleClick}>カウント</button>
-      <button onClick={handleDisplay}>{isShow ? "非表示" : "表示"}</button>
-
-      <input type="text" value={text} onChange={handleChange} />
-      <button onClick={handlAdd}>追加</button>
-      <ul>
-        {array.map((item) => {
-          return <li key={item}>{item}</li>;
-        })}
-      </ul>
-
-      <Main page="About(その他)" />
-      <Footer />
+      <div className={styles.container}>
+        {isShow ? <h1>{count}</h1> : null}
+        <button onClick={handleClick}>カウント</button>
+        <button onClick={handleDisplay}>{isShow ? "非表示" : "表示"}</button>
+        <input type="text" value={text} onChange={handleChange} />
+        <button onClick={handlAdd}>追加</button>
+        <ul>
+          {array.map((item) => {
+            return <li key={item}>{item}</li>;
+          })}
+        </ul>
+        <Main page="About(その他)" />
+        <Footer />
+      </div>
     </div>
   );
 }
