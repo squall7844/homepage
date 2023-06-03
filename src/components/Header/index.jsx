@@ -3,8 +3,7 @@ import classes from "src/components/Header//Header.module.css";
 
 export function Header() {
   return (
-    <div className="sticky top-0 z-50">
-    <header className={classes.header}>
+    <header className="sticky top-0 z-50 w-screen">
       <div className={classes.outer}></div>
       <div className={classes.inner}>
         <Link className={classes.anchor} href="/">
@@ -28,6 +27,5 @@ export function Header() {
       </div>
       <div className={classes.outer}></div>
     </header>
-    </div>
   );
 }
