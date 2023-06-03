@@ -1,29 +1,31 @@
 import Link from "next/link";
-import classes from "src/components/Header//Header.module.css";
+import classes from "src/components/Header/Header.module.css";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-screen">
+    <header className={classes.header}>
       <div className={classes.outer}></div>
       <div className={classes.inner}>
-        <Link className={classes.anchor} href="/">
-          Index
-        </Link>
-        <Link className={classes.anchor} href="/about">
-          About
-        </Link>
-        <Link className={classes.anchor} href="/test">
-          Test
-        </Link>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
-        <div className={classes.anchor}>a</div>
+        <nav>
+          <Link className={classes.text} href="/">
+            Index
+          </Link>
+          <Link className={classes.text} href="/about">
+            About
+          </Link>
+          <Link className={classes.text} href="/test">
+            Test
+          </Link>
+          <Link className={classes.text} href="/">
+            文字をここに入力
+          </Link>
+          <Link className={classes.text} href="/">
+            文字をここに入力
+          </Link>
+          <Link className={classes.text} href="/">
+            文字をここに入力
+          </Link>
+        </nav>
       </div>
       <div className={classes.outer}></div>
     </header>
