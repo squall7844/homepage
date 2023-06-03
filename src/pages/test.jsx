@@ -7,7 +7,17 @@ export default function Test() {
     <div>
       <Header />
       <div className={styles.container}>test</div>
-      <div class="text-3xl font-bold underline">hell tailwindcss!!!!!</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className={styles.container}>test</div>
+      <div className="text-justify text-3xl font-bold underline">
+        hell tailwindcss!!!!!
+      </div>
       <Footer />
     </div>
   );
