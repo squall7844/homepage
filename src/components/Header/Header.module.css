@@ -11,10 +11,11 @@
 }
 
 .text {
-  /* カーソルホバー字の色を変える */
-  @apply px-8 py-4  text-lg;
+  @apply hidden px-8 py-4 text-lg md:inline-block;
 }
 
 .text:hover {
   @apply hover:text-blue-600;
 }
+
+.
