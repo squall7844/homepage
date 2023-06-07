@@ -11,9 +11,21 @@
 }
 
 .text {
-  @apply hidden px-8 py-4 text-lg md:inline-block;
+  @apply hidden px-8 py-4 text-lg xl:inline-block;
 }
 
 .text:hover {
   @apply hover:text-blue-600;
+}
+
+.humburger {
+  @apply fixed right-6 top-8  bg-gray-800  px-8 py-4 text-lg;
+}
+
+.Menu {
+
+}
+
+.open {
+  @apply z-auto h-screen w-screen opacity-0;
 }
