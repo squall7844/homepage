@@ -39,9 +39,14 @@ export function Header() {
   return (
     <div>
       <header className={classes.header}>
-        <div className={classes.outer}></div>
         <div className={classes.inner}>
-          <Image src={"/"} alt="画像" width={100} height={100} />
+          <Image
+            src={"/logo.jpg"}
+            alt="画像"
+            width={100}
+            height={100}
+            className={classes.logo}
+          />
           {/* ヘッダー */}
           <nav>
             {ITEMS.map((item) => {
@@ -69,16 +74,16 @@ export function Header() {
           <span></span>
           <p>Close</p>
         </div>
-        {ITEMS.map((item) => {
+        <div>
+          {/* {ITEMS.map((item) => {
           return (
             <Link key={item.href} href={item.href}>
               {item.title}
             </Link>
           );
-        })}
+        })} */}
+        </div>
       </div>
-
-      <div className={classes.outer}></div>
     </div>
   );
 }

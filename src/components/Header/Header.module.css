@@ -1,9 +1,13 @@
-.header {
+/* .header {
   @apply sticky top-0 z-50 w-screen;
-}
+} */
 
-.outer {
+/* .outer {
   @apply h-3.5 bg-red-700;
+} */
+
+.logo {
+  @apply absolute left-3 top-2;
 }
 
 .inner {
@@ -23,8 +27,13 @@
 }
 
 .Menu {
+  @apply fixed top-5 w-full;
 }
 
 .open {
   @apply z-auto h-screen w-screen opacity-0;
+}
+
+.close {
+  @apply absolute right-0 top-0 h-16 w-16 text-white;
 }
