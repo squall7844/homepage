@@ -62,9 +62,13 @@ export function Header() {
           </div>
           {/* メニューボタン（ハンバーガー） */}
         </div>
-        <div className={classes.outer}></div>
       </header>
       <div className={`${classes.Menu} ${openMenu ? classes.open : undefined}`}>
+        <div className={classes.close} onClick={() => menuFunction()}>
+          <span></span>
+          <span></span>
+          <p>Close</p>
+        </div>
         {ITEMS.map((item) => {
           return (
             <Link key={item.href} href={item.href}>
@@ -73,6 +77,8 @@ export function Header() {
           );
         })}
       </div>
+
+      <div className={classes.outer}></div>
     </div>
   );
 }
