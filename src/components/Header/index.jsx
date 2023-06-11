@@ -17,8 +17,8 @@ const ITEMS = [
     title: "Test",
   },
   {
-    href: "/",
-    title: "ここに文字を入力",
+    href: "/sample",
+    title: "sample",
   },
   {
     href: "/",
