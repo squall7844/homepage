@@ -41,7 +41,7 @@ export function Header() {
     <nav className="flex bg-white">
       {/* ロゴ */}
       <div className="flex-none  sm:flex-1 md:flex-1 lg:flex-1 xl:flex-1 ">
-        <Image src="/logo.jpg" alt="logo" width={200} height={100} />
+        {/* <Image src="/logo.jpg" alt="logo" width={200} height={100} /> */}
       </div>
       {/* ロゴ */}
 
@@ -76,12 +76,12 @@ export function Header() {
       {/* ハンバーガーメニュー起動時 */}
 
       {/* 標準のメニュー */}
-      <div className="m-5 flex-initial font-bold text-[#7d5dcf] ">
+      <div className=" h-40  flex-initial font-bold text-[#7d5dcf] ">
         <ul className="hidden  flex-initial text-left md:flex">
-          <li className="m-5 p-4">
+          <li className="mt-16 ">
             {ITEMS.map((item) => {
               return (
-                <Link key={item.href} href={item.href} className="m-5">
+                <Link key={item.href} href={item.href} className="  m-10">
                   {item.title}
                 </Link>
               );
