@@ -47,7 +47,7 @@ export function Header() {
 
       {/* ハンバーガーメニュー起動時 */}
       {openMenu ? (
-        <div className="absolute right-0 top-0 z-10 flex min-h-fit  min-w-full flex-row">
+        <div className="absolute right-0 top-0 z-10 flex min-h-fit  min-w-full flex-row md:hidden">
           <div className="basis-1/2"></div>
 
           <div className="basis-1/2 bg-white">
@@ -93,7 +93,7 @@ export function Header() {
         onClick={menuFunction}
         className="absolute right-5 top-5 flex-initial md:hidden"
       >
-        <Image src="/bars-solid.svg" alt="menu" width={50} height={50} />
+        <Image src="/bars.svg" alt="menu" width={50} height={50} />
       </button>
       {/* 標準のメニュー */}
     </nav>
