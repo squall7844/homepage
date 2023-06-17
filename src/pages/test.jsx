@@ -2,6 +2,7 @@ import { Footer } from "src/components/Footer";
 import { Header } from "src/components/Header";
 import styles from "src/styles/Home.module.css";
 import Image from "next/image";
+import { Toppage } from "src/components/Toppage";
 
 export default function Test() {
   return (
@@ -21,16 +22,11 @@ export default function Test() {
       {/* レスポンシブわかるようにするやつ */}
       <div className={styles.container}>test</div>
       <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
-      <div className={styles.container}>test</div>
+
       <div className="text-justify text-3xl font-bold underline">
         hell tailwindcss!!!!!
       </div>
+      <Toppage />
       <Footer />
     </div>
   );
