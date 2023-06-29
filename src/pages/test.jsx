@@ -24,7 +24,7 @@ export default function Test() {
       <div className={styles.container}>test</div>
 
       <div className="text-justify text-3xl font-bold underline">
-        hell tailwindcss!!!!!
+        hell tailwindcss!!!!!sample!
       </div>
       <Toppage />
       <Footer />
