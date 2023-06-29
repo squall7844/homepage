@@ -6,6 +6,7 @@ import { Header } from "src/components/Header";
 import { useCounter } from "src/hooks/useCounter";
 import { useInputArray } from "src/hooks/useInputArray";
 import { Response } from "src/components/Response";
+import { NoFallbackError } from "next/dist/server/base-server";
 
 export default function Home() {
   const { count, isShow, handleClick, handleDisplay } = useCounter();
@@ -18,7 +19,6 @@ export default function Home() {
       </Head>
       <Header />
       <Response />
-
       <div className={styles.container}>
         {isShow ? <h1>{count}</h1> : null}
         <button onClick={handleClick}>カウント</button>
