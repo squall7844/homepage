@@ -20,7 +20,7 @@ export default function Test() {
         <div className="hidden sm:hidden md:hidden lg:hidden xl:block">xl</div>
       </div>
       {/* レスポンシブわかるようにするやつ */}
-      <div className={styles.container}>test</div>
+      <div className={styles.container}>NewsPage!!</div>
       <div className={styles.container}>test</div>
 
       <div className="text-justify text-3xl font-bold underline">

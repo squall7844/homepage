@@ -9,20 +9,16 @@ const ITEMS = [
   },
   {
     href: "/about",
-    title: "About",
+    title: "商品例",
   },
   {
     href: "/test",
-    title: "Test",
+    title: "お知らせ",
   },
 
   {
-    href: "/",
-    title: "ここに文字を入力",
-  },
-  {
-    href: "/",
-    title: "ここに文字を入力",
+    href: "/inquiry",
+    title: "お問い合わせ",
   },
 ];
 
