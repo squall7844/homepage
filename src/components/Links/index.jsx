@@ -2,24 +2,24 @@ import classes from "src/components/Links/Links.module.css";
 
 const ITEMS = [
   {
-    href: "https://chat.openai.com/",
-    title: "テスト１ →",
-    description: "チャットGDP",
+    href: "/",
+    title: "募集要項",
+    description: "→",
   },
   {
-    href: "https://vercel.com/dashboard",
-    title: "テスト２ →",
-    description: "vercel",
+    href: "/",
+    title: "福利厚生",
+    description: "→",
   },
   {
-    href: "https://github.com/",
-    title: "テスト３ →",
-    description: "github",
+    href: "/",
+    title: "求める人財像",
+    description: "→",
   },
   {
-    href: "/about",
-    title: "テスト４ →",
-    description: "about",
+    href: "/",
+    title: "選考の流れ",
+    description: "→",
   },
 ];
 

@@ -2,6 +2,7 @@ import { Link as Scroll } from "react-scroll";
 
 export default function Home() {
   return (
+
     <Scroll
       to="top"
       smooth={true}

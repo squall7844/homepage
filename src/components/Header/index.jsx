@@ -24,7 +24,6 @@ const ITEMS = [
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-  console.log(openMenu);
 
   const menuFunction = () => {
     setOpenMenu(!openMenu);

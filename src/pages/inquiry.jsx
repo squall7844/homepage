@@ -12,12 +12,12 @@ export default function Inquiry() {
       </Head>
       <Header />
       <Response />
-      <div className="mt-10 flex justify-center">お問い合わせフォーム</div>
+      <div className="mt-10 flex justify-center text-6xl">contact</div>
       <div className={styles.container}>
-        <div>名前</div>
-        <div>メールアドレス</div>
-        <div>電話番号</div>
-        <div>お問い合わせ内容</div>
+        <div>contact</div>
+        <div>採用担当連絡先</div>
+        <div>TEL：000-0000-0000</div>
+        <div>mail:test@gmail.co.jp</div>
       </div>
       <Footer />
     </div>
