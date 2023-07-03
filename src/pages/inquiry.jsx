@@ -16,7 +16,7 @@ export default function Inquiry() {
       <div className={styles.container}>
         <div>contact</div>
         <div>採用担当連絡先</div>
-        <div>TEL：000-0000-0000</div>
+        <div>TEL:000-0000-0000</div>
         <div>mail:test@gmail.co.jp</div>
       </div>
       <Footer />

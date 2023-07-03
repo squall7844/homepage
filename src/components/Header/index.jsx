@@ -42,30 +42,26 @@ export function Header() {
       {/* ロゴ */}
       {/* ハンバーガーメニュー起動時 */}
       {openMenu ? (
-        <div className="absolute top-0 z-10 flex min-h-fit  min-w-full flex-row lg:hidden">
-          <div className="basis-1/2"></div>
+        <div className="absolute  z-10 flex  flex-row justify-center w-screen h-screen bg-white lg:hidden">
+          <ul>
+            <li className=" p-5">
+              <button onClick={menuFunction} className="font-bold">
+                close
+              </button>
+            </li>
 
-          <div className="lef basis-1/2 bg-white">
-            <ul className=" border-l-2 text-center ">
-              <li className="border-b-2 p-2">
-                <button onClick={menuFunction} className="font-bold">
-                  close
-                </button>
-              </li>
-
-              {ITEMS.map((item) => {
-                return (
-                  <li className="border-b-2 p-2 ">
-                    <div onClick={menuFunction}>
-                      <Link key={item.href} href={item.href}>
-                        {item.title}
-                      </Link>
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
+            {ITEMS.map((item) => {
+              return (
+                <li className=" p-5 ">
+                  <div onClick={menuFunction}>
+                    <Link key={item.href} href={item.href}>
+                      {item.title}
+                    </Link>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       ) : undefined}
       {/* ハンバーガーメニュー起動時 */}
