@@ -1,3 +1,5 @@
+import { Link as Scroll } from "react-scroll";
+
 export function Toppage() {
   return (
     <Scroll
