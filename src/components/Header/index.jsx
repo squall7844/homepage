@@ -12,13 +12,16 @@ const ITEMS = [
     title: "商品例",
   },
   {
-    href: "/test",
+    href: "/news",
     title: "お知らせ",
   },
-
   {
     href: "/inquiry",
     title: "お問い合わせ",
+  },
+  {
+    href: "/sample",
+    title: "サンプルテスト用",
   },
 ];
 
@@ -42,7 +45,7 @@ export function Header() {
       {/* ロゴ */}
       {/* ハンバーガーメニュー起動時 */}
       {openMenu ? (
-        <div className="absolute  z-10 flex  flex-row justify-center w-screen h-screen bg-white lg:hidden">
+        <div className="absolute  z-10 flex  h-screen w-screen flex-row justify-center bg-white lg:hidden">
           <ul>
             <li className=" p-5">
               <button onClick={menuFunction} className="font-bold">
