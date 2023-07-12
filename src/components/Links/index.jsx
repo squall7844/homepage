@@ -2,7 +2,7 @@ import classes from "src/components/Links/Links.module.css";
 
 const ITEMS = [
   {
-    href: "/",
+    href: "/recruit",
     title: "募集要項",
     description: "→",
   },
